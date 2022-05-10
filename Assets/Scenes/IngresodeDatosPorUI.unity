@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.97264934, g: 1, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.972049, g: 1, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -639,8 +639,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1454664741}
-        m_MethodName: ShowDouble
+      - m_Target: {fileID: 1137861067}
+        m_MethodName: MultiInstantiate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -949,6 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e6d2bbb99063a246b6561b631871450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtUserCloneAmmount: {fileID: 48472635}
   objectToClone: {fileID: 590063301479461413, guid: fbc07ceec8aceab46bf5be128f9f7789,
     type: 3}
 --- !u!4 &1137861068
